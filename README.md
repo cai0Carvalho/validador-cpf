@@ -17,9 +17,9 @@ A estrutura do projeto está organizada da seguinte forma:
 
 - `main.py`: Arquivo de execução do projeto, que solicita o CPF ao usuário, chama o validador e imprime o resultado da validação.
 
--`validation.py`: Contém a classe CPFValidator, que implementa a lógica de validação e cálculo dos dígitos verificadores.
+- `validation.py`: Contém a classe CPFValidator, que implementa a lógica de validação e cálculo dos dígitos verificadores.
 
--`utils.py`: Função auxiliar para limpeza do CPF, removendo caracteres não numéricos.
+- `utils.py`: Função auxiliar para limpeza do CPF, removendo caracteres não numéricos.
 
 
 ## Instalação e Execução
