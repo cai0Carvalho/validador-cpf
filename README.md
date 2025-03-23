@@ -3,8 +3,11 @@ Este projeto é um validador de CPF implementado em Python. Ele realiza a verfic
 
 ## Funcionalidades 
 -Limpeza dos caracteres não numéricos
+
 -Validação do tamanho correto (11 dígitos)
+
 -Detecção de sequências repetidas (ex: 111.111.111-11)
+
 -Cálculo e verificação dos dígitos verificadores
 
 ## Instalação e Execução
