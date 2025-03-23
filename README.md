@@ -1,14 +1,26 @@
-## Validador de CPF
-Este projeto é um validador de CPF implementado em Python. Ele realiza a verficação completa de um CPF, incluindo:
+## Validador de CPF - Projeto Python
+Este projeto é um Validador de CPF desenvolvido em Python, com o objetivo de realizar a verificação completa e detalhada de um CPF informado. O validador aplica diversas validações, incluindo a verificação de caracteres não numéricos, tamanho correto, sequências repetidas, e o cálculo dos dígitos verificadores, conforme as regras oficiais.
 
-## Funcionalidades 
--Limpeza dos caracteres não numéricos
+## Funcionalidades
+- Este validador realiza as seguintes verificações no CPF:
 
--Validação do tamanho correto (11 dígitos)
+- Limpeza dos caracteres não numéricos: Remove automaticamente qualquer ponto, traço ou espaço, permitindo que o CPF seja informado com ou sem formatação.
 
--Detecção de sequências repetidas (ex: 111.111.111-11)
+- Validação do tamanho correto: Verifica se o CPF possui exatamente 11 dígitos, conforme o formato oficial.
 
--Cálculo e verificação dos dígitos verificadores
+- Detecção de sequências repetidas: Identifica e rejeita CPFs compostos por sequências repetidas, como "111.111.111-11" ou "222.222.222-22", que são inválidos por padrão.
+
+- Cálculo e verificação dos dígitos verificadores: Realiza os cálculos para validar os dois últimos dígitos do CPF, que são usados para garantir sua autenticidade.
+
+## Estrutura do Projeto
+A estrutura do projeto está organizada da seguinte forma:
+
+- `main.py`: Arquivo de execução do projeto, que solicita o CPF ao usuário, chama o validador e imprime o resultado da validação.
+
+-`validation.py`: Contém a classe CPFValidator, que implementa a lógica de validação e cálculo dos dígitos verificadores.
+
+-`utils.py`: Função auxiliar para limpeza do CPF, removendo caracteres não numéricos.
+
 
 ## Instalação e Execução
 
